@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
@@ -6,6 +6,11 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import '../styles/Home.css';
 
 function Home() {
+
+  useEffect(() => {
+    document.title = 'Repin Andrei - FullStack Developer';;
+  });
+
   return (
     <div className='home'>
       <div className='about'>

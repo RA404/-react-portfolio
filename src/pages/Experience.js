@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 
 function Experience() {
+
+  useEffect(() => {
+    document.title = 'Repin Andrei - Experience';;
+  });
+
   return (
     <div className='experience'>
       <VerticalTimeline lineColor='#3e497a'>

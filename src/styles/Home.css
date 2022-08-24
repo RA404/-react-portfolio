@@ -21,7 +21,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
     color: #e9d35b;
-    height: 50px;
+    max-width: 80%;
   }
   
   .about .prompt {
@@ -36,6 +36,10 @@
 
   .about__description-text {
     font-size: 22px;
+    line-height: 1.5;
+    max-width: 80%;
+    margin: auto;
+    padding: 15px;
   }
 
   .about__description-text_bold {

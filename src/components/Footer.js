@@ -22,7 +22,7 @@ function Footer() {
                 <TelegramIcon />
             </a>
         </div>
-        <p>&copy; 2022 repin-domain.com</p>
+        <p>&copy; 2022 repin-andrei.com</p>
     </div>
   )
 }
