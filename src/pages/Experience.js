@@ -53,7 +53,7 @@ function Experience() {
           iconStyle={{ background: '#e9d35b', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Teach Lead</h3>
+          <h3 className='vertical-timeline-element-title'>Teach Lead (Mostly 1C:Enterprise)</h3>
           <h4 className='vertical-timeline-element-subtitle'>"Tekh-Met" ltd, Yekaterinburg</h4>
           <p>
             Duties: Managing IT department with 5 developers, web-sites development for different products, organising a cooperation with sub-contractors
