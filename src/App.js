@@ -8,6 +8,7 @@ import Testimonials from './pages/Testimonials';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
+import TestimonialDisplay from './pages/TestimonialDisplay';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/project/:id' element={<ProjectDisplay />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='/testimonials' element={<Testimonials />} />
+          <Route path='/testimonial/:id' element={<TestimonialDisplay />} />
         </Routes>
         <Footer />
       </Router>
