@@ -22,7 +22,7 @@ function Footer() {
                 <TelegramIcon />
             </a>
         </div>
-        <p>&copy; 2022 repin-andrei.com</p>
+        <p>&copy; 2022 <a className='footer__link' href='https://repin-andrei.com/'>repin-andrei.com</a></p>
     </div>
   )
 }
