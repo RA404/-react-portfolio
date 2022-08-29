@@ -9,8 +9,8 @@ function TestimonialDisplay() {
 
     return (
         <div className='testimonial'>
-            <h1>{testimonial.name}</h1>
-            <img src={testimonial.image} alt={testimonial.name} />
+            <h1 className='testimonial__title'>{testimonial.name}</h1>
+            <img className='testimonial__image' src={testimonial.image} alt={testimonial.name} />
         </div>
     );
 }

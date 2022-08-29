@@ -6,15 +6,16 @@
     flex-direction: column;
   }
   
-  .testimonial h1 {
-    margin-top: 50px;
+  .testimonial__title {
     color: #3e497a;
     font-size: 35px;
+    margin: 50px auto 0 auto;
   }
-  .testimonial img {
+  .testimonial__image {
     max-width: 90%;
     min-width: 40%;
     border-radius: 10px;
+    margin-top: 10px;
   }
   
   .testimonial {

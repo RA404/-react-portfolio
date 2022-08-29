@@ -11,7 +11,7 @@
     color: #3e497a;
     font-size: 35px;
   }
-  .project img {
+  .project__image {
     max-width: 90%;
     min-width: 40%;
     border-radius: 10px;
