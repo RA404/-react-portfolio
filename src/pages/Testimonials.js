@@ -10,9 +10,9 @@ function Testimonials() {
   });
 
   return (
-    <div className='projects'>
+    <div className='testimonials'>
       <h1>Testimonials</h1>
-      <div className='projectList'>
+      <div className='testimonialList'>
         {TestimonialList.map((testimonial, idx) => {
           return <TestimonialItem key={idx} id={idx} name={testimonial.name} image={testimonial.image}/>
         })}

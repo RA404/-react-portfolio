@@ -8,7 +8,7 @@ function TestimonialDisplay() {
     const testimonial = TestimonialList[id];
 
     return (
-        <div className='project'>
+        <div className='testimonial'>
             <h1>{testimonial.name}</h1>
             <img src={testimonial.image} alt={testimonial.name} />
         </div>

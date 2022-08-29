@@ -55,7 +55,7 @@ export const ProjectList = [
     {
         name: 'Talk-ed (frontend)',
         image: Talked,
-        skills: 'JavaScript, React.js, HTML, CSS',
+        skills: 'JavaScript, ReactJS, HTML, CSS',
         gitLink: '',
         description: '',
     },

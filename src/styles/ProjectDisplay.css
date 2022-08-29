@@ -15,6 +15,7 @@
     max-width: 90%;
     min-width: 40%;
     border-radius: 10px;
+    margin: 20px auto;
   }
   
   .project {
@@ -33,4 +34,10 @@
 
   .project__text_description {
     max-width: 60%;
+  }
+
+  .project__skills {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
   }

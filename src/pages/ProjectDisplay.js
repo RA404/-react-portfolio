@@ -23,9 +23,9 @@ function ProjectDisplay() {
     return (
         <div className='project'>
             <h1>{project.name}</h1>
+            <p className='project__skills'><b>Skills:</b> {project.skills}</p>
             {descElement}
             <img src={project.image} alt={project.name} />
-            <p><b>Skills:</b> {project.skills}</p>
             {gitElement}
         </div>
     );

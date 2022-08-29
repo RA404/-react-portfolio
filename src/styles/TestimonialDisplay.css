@@ -1,4 +1,4 @@
-.project {
+.testimonial {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -6,23 +6,23 @@
     flex-direction: column;
   }
   
-  .project h1 {
+  .testimonial h1 {
     margin-top: 50px;
     color: #3e497a;
     font-size: 35px;
   }
-  .project img {
+  .testimonial img {
     max-width: 90%;
     min-width: 40%;
     border-radius: 10px;
   }
   
-  .project {
+  .testimonial {
     font-size: 40px;
     color: #3e497a;
   }
   
-  .project svg {
+  .testimonial svg {
     font-size: 60px;
     color: #3e497a;
   }

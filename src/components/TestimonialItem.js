@@ -5,7 +5,7 @@ function TestimonialItem({ image, name, id }) {
   const navigate = useNavigate();
   return (
     <div 
-      className='projectItem'
+      className='testimonialItem'
       onClick={() => {
         navigate('/testimonial/'+ id)
       }}
