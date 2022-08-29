@@ -22,7 +22,7 @@ function ProjectDisplay() {
 
     return (
         <div className='project'>
-            <h1>{project.name}</h1>
+            <h1 className='project__title'>{project.name}</h1>
             <p className='project__skills'><b>Skills:</b> {project.skills}</p>
             {descElement}
             <img src={project.image} alt={project.name} />
