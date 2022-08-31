@@ -7,8 +7,8 @@
   }
   
   .project__title {
-    margin: 50px auto 0 auto;
-    color: #3e497a;
+    margin: 50px auto 15px auto;
+    color: #03032D;
     font-size: 35px;
     text-align: center;
   }
@@ -22,12 +22,12 @@
   
   .project {
     font-size: 40px;
-    color: #3e497a;
+    color: #03032D;
   }
   
   .project svg {
     font-size: 60px;
-    color: #3e497a;
+    color: #03032D;
   }
   
   .project__text {
@@ -39,7 +39,7 @@
   }
 
   .project__skills {
-    margin: 0 auto;
+    margin: 10px auto;
     max-width: 80%;
     text-align: center;
   }

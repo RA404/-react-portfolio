@@ -11,7 +11,7 @@ function Projects() {
 
   return (
     <div className='projects'>
-      <h1>My personal projects</h1>
+      <h1 className='projects__title'>My personal projects</h1>
       <div className='projectList'>
         {ProjectList.map((project, idx) => {
           return <ProjectItem key={idx} id={idx} name={project.name} image={project.image} stack={project.skills}/>

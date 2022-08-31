@@ -14,10 +14,10 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, my name is Repin Andrei</h2>
+        <h2 className='about__title'>Hi, my name is Repin Andrei</h2>
         <div className='promt'>
           <p className='about__description-text'>I'm <span className='about__description-text_bold'>Fullstack Developer</span> with a passion of learning and creating.</p>
-          <p className='about__description-text'>My main technology stack includes Python, Django, Express.js on Backend and Java Script, React on Frontend.</p>
+          <p className='about__description-text'>My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.</p>
           <div className='socialMedia'>
             <a href='https://www.linkedin.com/in/ra404/' target='_blank' rel='noopener noreferrer'>
               <LinkedInIcon />

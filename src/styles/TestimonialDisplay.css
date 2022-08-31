@@ -7,9 +7,9 @@
   }
   
   .testimonial__title {
-    color: #3e497a;
+    color: #03032D;
     font-size: 35px;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 20px auto;
     text-align: center;
   }
   .testimonial__image {
@@ -21,12 +21,12 @@
   
   .testimonial {
     font-size: 40px;
-    color: #3e497a;
+    color: #03032D;
   }
   
   .testimonial svg {
     font-size: 60px;
-    color: #3e497a;
+    color: #03032D;
   }
   
   .project__text {

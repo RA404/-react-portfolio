@@ -12,12 +12,22 @@ function Experience() {
 
   return (
     <div className='experience'>
-      <VerticalTimeline lineColor='#3e497a'>
+      <VerticalTimeline lineColor='#03032D'>
+
+      <VerticalTimelineElement
+          className='vertical-timeline-element--education'
+          date='April 2022 - July 2022'
+          iconStyle={{ background: '#03032D', color: '#fff' }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className='vertical-timeline-element-title'>Preparation for admission to US universities</h3>
+          <p>MSc in Data Science</p>
+        </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
           date='January 2022 - March 2022'
-          iconStyle={{ background: '#e9d35b', color: '#fff' }}
+          iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Teach Lead</h3>
@@ -28,7 +38,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='November 2020 - October 2021'
-          iconStyle={{ background: '#3e497a', color: '#fff' }}
+          iconStyle={{ background: '#03032D', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Yandex Practicum</h3>
@@ -39,7 +49,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='September 2019 - June 2020'
-          iconStyle={{ background: '#3e497a', color: '#fff' }}
+          iconStyle={{ background: '#03032D', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Yandex Practicum</h3>
@@ -50,7 +60,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
           date='August 2012 - December 2021'
-          iconStyle={{ background: '#e9d35b', color: '#fff' }}
+          iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Teach Lead (Mostly 1C:Enterprise)</h3>
@@ -63,7 +73,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='April 2012 - April 2013'
-          iconStyle={{ background: '#3e497a', color: '#fff' }}
+          iconStyle={{ background: '#03032D', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Higher School of Economics</h3>
@@ -74,7 +84,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='September 2011 - September 2012'
-          iconStyle={{ background: '#3e497a', color: '#fff' }}
+          iconStyle={{ background: '#03032D', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Higher School of Economics</h3>
@@ -85,7 +95,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
           date='August 2006 - May 2012'
-          iconStyle={{ background: '#e9d35b', color: '#fff' }}
+          iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Computer Programmer (1C:Enterprise)</h3>
@@ -101,7 +111,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='September 2006 - June 2010'
-          iconStyle={{ background: '#3e497a', color: '#fff' }}
+          iconStyle={{ background: '#03032D', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Ural State Technical University, Yekaterinburg</h3>
@@ -112,7 +122,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='September 2003 - June 2006'
-          iconStyle={{ background: '#3e497a', color: '#fff' }}
+          iconStyle={{ background: '#03032D', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Ural Technological College, Sverdlovsk Region</h3>
