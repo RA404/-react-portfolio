@@ -43,7 +43,7 @@ function Home() {
           </li>
           <li className='item'>
             <h2>Back-end</h2>
-            <span>Python, Django, DRF, NodeJS, ExpressJS, REST</span>
+            <span>Python, Django, DRF, NodeJS, npm, ExpressJS, REST</span>
           </li>
           <li className='item'>
             <h2>Infrastructure and DB</h2>
