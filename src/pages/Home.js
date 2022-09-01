@@ -46,7 +46,7 @@ function Home() {
             <span>Python, Django, DRF, NodeJS, ExpressJS, REST</span>
           </li>
           <li className='item'>
-            <h2>Infrastructure</h2>
+            <h2>Infrastructure and DB</h2>
             <span>Docker, Git, GitHub Actions, CI/CD, nginx, WebPack, MongoDB, MySQL, MS SQL, Postgresql</span>
           </li>
         </ol>
