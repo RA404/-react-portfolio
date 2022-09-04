@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 import TestimonialDisplay from './pages/TestimonialDisplay';
+import Education from './pages/Education';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/project/:id' element={<ProjectDisplay />} />
           <Route path='/experience' element={<Experience />} />
+          <Route path='/education' element={<Education />} />
           <Route path='/testimonials' element={<Testimonials />} />
           <Route path='/testimonial/:id' element={<TestimonialDisplay />} />
         </Routes>
