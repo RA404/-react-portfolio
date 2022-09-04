@@ -7,6 +7,7 @@ React developer portfolio project with several pages (React + JS).
 - Home (Skills)
 - Projects (with a separate page for each project)
 - Experience (used Vertical TimeLine)
+- Education (used Vertical TimeLine)
 - Testimonials (with a separate page for each testimonial)
 
 ## How to install
