@@ -2,11 +2,13 @@ import React, { useEffect } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import WorkIcon from '@material-ui/icons/Work';
+import { metaAdder } from '../helpers/metaAdder';
 
 function Experience() {
 
   useEffect(() => {
-    document.title = 'Repin Andrei - Experience';;
+    document.title = 'Repin Andrei - Experience';
+    metaAdder('description', "My work experience");
   });
 
   return (

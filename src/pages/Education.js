@@ -2,11 +2,13 @@ import React, { useEffect } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from '@material-ui/icons/School';
+import { metaAdder } from '../helpers/metaAdder';
 
 function Experience() {
 
   useEffect(() => {
-    document.title = 'Repin Andrei - Education';;
+    document.title = 'Repin Andrei - Education';
+    metaAdder('description', "My education including courses");
   });
 
   return (
@@ -19,7 +21,7 @@ function Experience() {
           iconStyle={{ background: '#03032D', color: '#fff' }}
           icon={<SchoolIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>edX: HarvardX CS50W</h3>
+          <h3 className='vertical-timeline-element-title'>Harvard University (CS50W)</h3>
           <h4 className='vertical-timeline-element-subtitle'>CS50's Web Programming with Python and JavaScript</h4>
         </VerticalTimelineElement>
 

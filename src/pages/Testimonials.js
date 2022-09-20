@@ -2,11 +2,13 @@ import React, { useEffect } from 'react';
 import TestimonialItem from '../components/TestimonialItem';
 import '../styles/Testimonials.css';
 import { TestimonialList } from '../helpers/testimonialList.js';
+import { metaAdder } from '../helpers/metaAdder';
 
 function Testimonials() {
 
   useEffect(() => {
-    document.title = 'Repin Andrei - Testimonials';;
+    document.title = 'Repin Andrei - Testimonials';
+    metaAdder('description', "Testimonials about me from employers, partners and educational institutions");
   });
 
   return (

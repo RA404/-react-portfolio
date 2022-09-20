@@ -4,11 +4,13 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import '../styles/Home.css';
+import { metaAdder } from '../helpers/metaAdder';
 
 function Home() {
 
   useEffect(() => {
-    document.title = 'Repin Andrei - FullStack Developer';;
+    document.title = 'Repin Andrei - FullStack Developer';
+    metaAdder('description', "I'm Fullstack Developer with a passion of learning and creating. My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.");
   });
 
   return (

@@ -2,11 +2,13 @@ import React, { useEffect } from 'react';
 import ProjectItem from '../components/ProjectItem';
 import { ProjectList } from '../helpers/projectList.js';
 import '../styles/Projects.css';
+import { metaAdder } from '../helpers/metaAdder';
 
 function Projects() {
 
   useEffect(() => {
-    document.title = 'Repin Andrei - Projects';;
+    document.title = 'Repin Andrei - Projects';
+    metaAdder('description', "My projects (commercial projects, pet-projects and study projects)");
   });
 
   return (
