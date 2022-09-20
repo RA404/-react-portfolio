@@ -19,9 +19,10 @@
   
   .about__title {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     color: #fff;
     max-width: 80%;
+    margin: 10px auto;
   }
   
   .about .prompt {
@@ -29,7 +30,7 @@
     font-size: 30px;
   }
   .prompt svg {
-    font-size: 60px;
+    font-size: 40px;
     margin: 5px;
     color: white;
   }
@@ -44,6 +45,10 @@
 
   .about__description-text_bold {
     font-weight: bold;
+  }
+
+  .about__description-text_last-elaement {
+    margin-bottom: 30px;
   }
   
   .skills {
@@ -66,6 +71,14 @@
   
   .list span {
     font-size: 20px;
+  }
+
+  .button {
+    margin: 0px auto 0px auto;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF5733;
   }
   
   @media only screen and (max-width: 600px) {

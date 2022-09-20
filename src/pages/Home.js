@@ -5,6 +5,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import '../styles/Home.css';
 import { metaAdder } from '../helpers/metaAdder';
+import RepinCV_pdf_file from '../assets/Repin_full-stack-developer.pdf'
 
 function Home() {
 
@@ -19,7 +20,8 @@ function Home() {
         <h2 className='about__title'>Hi, my name is Repin Andrei</h2>
         <div className='promt'>
           <p className='about__description-text'>I'm <span className='about__description-text_bold'>Fullstack Developer</span> with a passion of learning and creating.</p>
-          <p className='about__description-text'>My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.</p>
+          <p className='about__description-text about__description-text_last-elaement'>My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.</p>
+          <a className='button' href={RepinCV_pdf_file} download="Repin_full-stack-developer.pdf" target='_blank' rel='noopener noreferrer'>Download CV</a>
           <div className='socialMedia'>
             <a href='https://www.linkedin.com/in/ra404/' target='_blank' rel='noopener noreferrer'>
               <LinkedInIcon />
