@@ -28,6 +28,16 @@ function Experience() {
 
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
+          date='April 2022 - July 2022'
+          iconStyle={{ background: '#6B1049', color: '#fff' }}
+          icon={<WorkIcon />}
+        >
+          <h3 className='vertical-timeline-element-title'>Preparation for admission to US universities</h3>
+          <p>MSc in Data Science</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className='vertical-timeline-element--work'
           date='January 2022 - March 2022'
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
