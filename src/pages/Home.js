@@ -48,7 +48,7 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-end</h2>
-            <span>JavaScript, HTML, CSS, ReactJS, BEM, npm, StyledComponent, Bootstrap, TailwindCSS</span>
+            <span>JavaScript, HTML, CSS, ReactJS, BEM, npm, StyledComponent, Bootstrap, TailwindCSS, MUI</span>
           </li>
           <li className='item'>
             <h2>Back-end</h2>
