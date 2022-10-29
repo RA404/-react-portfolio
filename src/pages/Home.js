@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
@@ -14,6 +14,9 @@ function Home() {
     document.title = 'Repin Andrei - FullStack Developer';
     metaAdder('description', "I'm Fullstack Developer with a passion of learning and creating. My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.");
   });
+
+  const myRef = useRef(null);
+  const executeScroll = () => myRef.current.scrollIntoView({behavior: "smooth"});
 
   return (
     <div className='home'>
@@ -38,10 +41,10 @@ function Home() {
             </a>
           </div>
         </div>
-        <img className='img-down-arrow' src={DownArrow} alt='Down arrow'></img>
+        <img className='img-down-arrow' src={DownArrow} alt='Down arrow' onClick={executeScroll}></img>
       </div>
       <div className='skills'>
-        <h1>Skills</h1>
+        <h1 ref={myRef}>Skills</h1>
         <ol className='list'>
           <li className='item'>
             <h2>Front-end</h2>
