@@ -5,7 +5,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import '../styles/Home.css';
 import { metaAdder } from '../helpers/metaAdder';
-import RepinCV_pdf_file from '../assets/Repin_full-stack-developer.pdf';
+import RepinCV_pdf_file from '../assets/Repin_Andrey_CV.pdf';
 import DownArrow from '../assets/down-arrow.png';
 
 function Home() {

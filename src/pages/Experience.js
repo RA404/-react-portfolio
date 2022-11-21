@@ -17,34 +17,18 @@ function Experience() {
 
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
-          date='August 2022 - until now'
+          date='January 2022 - Present'
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Web-Developer</h3>
-          <h4 className='vertical-timeline-element-subtitle'>Freelance</h4>
-          <p>Duties: Web-sites development, creating telegram bots, working with api and backend services</p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className='vertical-timeline-element--work'
-          date='April 2022 - July 2022'
-          iconStyle={{ background: '#6B1049', color: '#fff' }}
-          icon={<WorkIcon />}
-        >
-          <h3 className='vertical-timeline-element-title'>Preparation for admission to US universities</h3>
-          <p>MSc in Data Science</p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className='vertical-timeline-element--work'
-          date='January 2022 - March 2022'
-          iconStyle={{ background: '#6B1049', color: '#fff' }}
-          icon={<WorkIcon />}
-        >
-          <h3 className='vertical-timeline-element-title'>Teach Lead</h3>
-          <h4 className='vertical-timeline-element-subtitle'>"Talk-ed" ltd, Yekaterinburg</h4>
-          <p>Duties: MVP and IT architecture development, assembling the team of developers, code review, product technical refinement and technical support.</p>
+          <h3 className='vertical-timeline-element-title'>Full Stack Web Developer</h3>
+          <h4 className='vertical-timeline-element-subtitle'>OnPageConversion (Vaughan, Canada)</h4>
+          <p><b>Stack:</b> JavaScript, ReactJS, Python, Django, DRF, NodeJS, html/css</p>
+          <ul>
+            <li>Built the "Talk-ed" an MVP project for education technologies from scratch</li>
+            <li>Redesign of a web application for financial services, taking into account the modern technology stack, which increased the number of customer transactions by 15%</li>
+            <li>Successfully optimized the company's web application for greatest performance, which reduced the load on the server by 20%</li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -53,7 +37,7 @@ function Experience() {
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Teach Lead (Mostly 1C:Enterprise)</h3>
+          <h3 className='vertical-timeline-element-title'>Teach Lead</h3>
           <h4 className='vertical-timeline-element-subtitle'>"Tekh-Met" ltd, Yekaterinburg</h4>
           <p>
             Duties: Managing IT department with 5 developers, web-sites development for different products, organising a cooperation with sub-contractors
@@ -66,7 +50,7 @@ function Experience() {
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Computer Programmer (1C:Enterprise)</h3>
+          <h3 className='vertical-timeline-element-title'>Computer Programmer</h3>
           <h4 className='vertical-timeline-element-subtitle'>"Kloss Services Corporation" ltd, Yekaterinburg</h4>
           <p>
           Duties: New software development, updating of the existing software according to the customer's needs, technical tasks writing and completion.
@@ -79,7 +63,7 @@ function Experience() {
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Computer Programmer (1C:Enterprise)</h3>
+          <h3 className='vertical-timeline-element-title'>Computer Programmer</h3>
           <h4 className='vertical-timeline-element-subtitle'>"AS-Deprix" ltd, Yekaterinburg</h4>
           <p>
           Duties: New software development, updating of the existing software according to the customer's needs, technical tasks writing and completion.
@@ -92,7 +76,7 @@ function Experience() {
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Computer Programmer (1C:Enterprise)</h3>
+          <h3 className='vertical-timeline-element-title'>Computer Programmer</h3>
           <h4 className='vertical-timeline-element-subtitle'>"Ural Electronic Plant" ltd, Yekaterinburg</h4>
           <p>
           Duties: New software development, updating of the existing software according to the customer's needs, technical tasks writing and completion.
