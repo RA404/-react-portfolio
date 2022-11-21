@@ -25,7 +25,7 @@ function Home() {
         <div className='promt'>
           <p className='about__description-text'>I'm <span className='about__description-text_bold'>Fullstack Developer</span> with a passion of learning and creating.</p>
           <p className='about__description-text about__description-text_last-elaement'>My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.</p>
-          <a className='button' href={RepinCV_pdf_file} download="Repin_full-stack-developer.pdf" target='_blank' rel='noopener noreferrer'>Download CV</a>
+          <a className='button' href={RepinCV_pdf_file} download="Repin_Andrei_CV.pdf" target='_blank' rel='noopener noreferrer'>Download CV</a>
           <div className='socialMedia'>
             <a href='https://www.linkedin.com/in/ra404/' target='_blank' rel='noopener noreferrer'>
               <LinkedInIcon />
