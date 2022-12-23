@@ -24,6 +24,13 @@ function Home() {
         <h2 className='about__title'>Hi, my name is Repin Andrei</h2>
         <div className='promt'>
           <p className='about__description-text'>I'm <span className='about__description-text_bold'>Fullstack Developer</span> with a passion of learning and creating.</p>
+
+          <p className='about__description-text'>
+            15+ years of general programming experience.
+            <span className='about__description-text_bold'> 2+ years of JavaScript</span> web development experience. 
+            <span className='about__description-text_bold'> 1+ year of Python</span> backend development experience.
+          </p>
+
           <p className='about__description-text about__description-text_last-elaement'>My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.</p>
           <a className='button' href={RepinCV_pdf_file} download="Repin_Andrei_CV.pdf" target='_blank' rel='noopener noreferrer'>Download CV</a>
           <div className='socialMedia'>
