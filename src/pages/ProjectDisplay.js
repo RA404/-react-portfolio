@@ -8,12 +8,15 @@ function ProjectDisplay() {
     const { id } = useParams();
     const project = ProjectList[id];
     let descElement;
-    let gitElement;
+    let gitElementIcon;
+    let gitElementText;
 
     if (project.gitLink) {
-        gitElement = <a href={project.gitLink} target='_blank' rel='noopener noreferrer'><GitHubIcon /></a>      
+        gitElementIcon = <a href={project.gitLink} target='_blank' rel='noopener noreferrer'><GitHubIcon /></a>  
+        gitElementText = <a href={project.gitLink} target='_blank' rel='noopener noreferrer'>GitHub Link</a>    
     } else {
-        gitElement = <p className='project__text'>Private repository</p>
+        gitElementIcon = <GitHubIcon />
+        gitElementText = <p className='project__text'>Private repository</p>
     }
     
     if (project.description) {
@@ -26,7 +29,8 @@ function ProjectDisplay() {
             <p className='project__skills'><b>Skills:</b> {project.skills}</p>
             {descElement}
             <img className='project__image' src={project.image} alt={project.name} />
-            {gitElement}
+            {gitElementIcon}
+            {gitElementText}
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import Telegram from '../assets/telegram-bot.jpeg';
-import ReactPortfolio from '../assets/ReactPortfolio.jpeg';
+import ReactPortfolio from '../assets/reactPortfolio.png';
 import TravelBlog from '../assets/TravelBlog.jpeg';
 import NewsExplorer from '../assets/NewsExplorer.jpeg';
 import Express from '../assets/node_express.webp';
@@ -7,9 +7,17 @@ import Mesto from '../assets/Mesto.jpeg';
 import Talked from '../assets/Talked.jpg';
 import PythonDjango from '../assets/python_django.jpeg';
 import BankCards from '../assets/bank_cards.jpeg';
+import Dashboard from '../assets/dashboard.png';
 
 
 export const ProjectList = [
+    {
+        name: 'React Dashboard',
+        image: Dashboard,
+        skills: 'React, Material UI, Formik, Nivo, FullCalendar, ReactProSidebar, Accordion, x-Data-Grid',
+        gitLink: 'https://github.com/RA404/dashboard_admin_panel',
+        description: 'This is the pet project. I experimented with material ui for creating this beautiful dashboard. I used the libraries and components such as formik, nivo, x-data-grid, full calendar, react pro sidebar, accordion.',
+    },
     {
         name: 'React-Portfolio',
         image: ReactPortfolio,
