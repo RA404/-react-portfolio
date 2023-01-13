@@ -13,5 +13,6 @@ React developer portfolio project with several pages (React + JS).
 ## How to install
 
 - git clone project
+- npm i - install dependencies
 - npm run start - run locally
-- npm run build - build project for prodaction
+- npm run build - build project for production
