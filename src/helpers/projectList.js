@@ -17,6 +17,7 @@ export const ProjectList = [
         skills: 'React, Material UI, Formik, Nivo, FullCalendar, ReactProSidebar, Accordion, x-Data-Grid',
         gitLink: 'https://github.com/RA404/dashboard_admin_panel',
         description: 'This is the pet project. I experimented with material ui for creating this beautiful dashboard. I used the libraries and components such as formik, nivo, x-data-grid, full calendar, react pro sidebar, accordion.',
+        projectLink: 'https://ra404.github.io/dashboard/',
     },
     {
         name: 'React-Portfolio',
@@ -24,6 +25,7 @@ export const ProjectList = [
         skills: 'HTML, CSS, ReactJS',
         gitLink: 'https://github.com/RA404/react-portfolio',
         description: '',
+        projectLink: 'https://repin-andrei.com/',
     },
     {
         name: 'Travel Blog',
@@ -31,6 +33,7 @@ export const ProjectList = [
         skills: 'Python, Django, JavaScript, HTML, CSS, Docker',
         gitLink: 'https://github.com/RA404/travel_blog',
         description: '',
+        projectLink: '',
     },
     {
         name: 'News Explorer (frontend)',
@@ -38,6 +41,7 @@ export const ProjectList = [
         skills: 'JavaScript, HTML, CSS, Babel, WebPack',
         gitLink: 'https://github.com/RA404/newsExplorer',
         description: '',
+        projectLink: '',
     },
     {
         name: 'News Explorer (backend)',
@@ -45,6 +49,7 @@ export const ProjectList = [
         skills: 'JavaScript, Express.js, JWT, MongoDB, nginx',
         gitLink: 'https://github.com/RA404/apiNews',
         description: '',
+        projectLink: '',
     },
     {
         name: 'Mesto (frontend)',
@@ -52,6 +57,7 @@ export const ProjectList = [
         skills: 'JavaScript, HTML, CSS',
         gitLink: 'https://github.com/RA404/Mesto',
         description: '',
+        projectLink: '',
     },
     {
         name: 'Mesto (backend)',
@@ -59,6 +65,7 @@ export const ProjectList = [
         skills: 'JavaScript, Express.js, mongoDB',
         gitLink: 'https://github.com/RA404/backend13',
         description: '',
+        projectLink: '',
     },
     {
         name: 'Talk-ed (frontend)',
@@ -66,6 +73,7 @@ export const ProjectList = [
         skills: 'JavaScript, ReactJS, HTML, CSS',
         gitLink: '',
         description: '',
+        projectLink: '',
     },
     {
         name: 'Talk-ed (backend)',
@@ -73,6 +81,7 @@ export const ProjectList = [
         skills: 'Python, Django, Docker, Postgresql, CI/CD',
         gitLink: '',
         description: '',
+        projectLink: '',
     },
     {
         name: 'Money transfer service',
@@ -80,6 +89,7 @@ export const ProjectList = [
         skills: 'Python, DRF',
         gitLink: '',
         description: `The service was developed for a network of pawnshops. This service interacts with the API of several banks, as well as with the internal accounting system. He allowed pawnshops to switch to non-cash issuance of loans. As a result, the cost of transporting cash was reduced and the number of transactions using the mobile application and the client's personal account increased.`,
+        projectLink: '',
     },
     {
         name: 'API for yamdb service',
@@ -87,6 +97,7 @@ export const ProjectList = [
         skills: 'Python, DRF, Docker',
         gitLink: '',
         description: `The application allows users to leave reviews for works: films, music, books, etc., as well as comment on each other's reviews.`,
+        projectLink: '',
     },
     {
         name: 'YaTube',
@@ -94,6 +105,7 @@ export const ProjectList = [
         skills: 'Python, Django, Docker',
         gitLink: '',
         description: `A small social network where you and other users can post pictures and descriptions and comment on each other's posts`,
+        projectLink: '',
     },
     {
         name: 'Telegram bots',
@@ -101,5 +113,6 @@ export const ProjectList = [
         skills: 'Python',
         gitLink: '',
         description: 'Bot for monitoring processes, Bot for creating and sending reports',
+        projectLink: '',
     },
 ]
