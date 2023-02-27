@@ -15,8 +15,8 @@ import { metaAdder } from './helpers/metaAdder';
 function App() {
 
   useEffect(() => {
-    document.title = 'Repin Andrei - FullStack Developer';
-    metaAdder('description', "I'm Fullstack Developer with a passion of learning and creating. My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.");
+    document.title = 'Repin Andrei - Web Developer';
+    metaAdder('description', "I'm Web Developer with a passion of learning and creating. My main tech stack includes JavaScript, React on Frontend and Node.js, Express.js, Python, Django on Backend.");
   });
 
   return (

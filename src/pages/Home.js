@@ -11,8 +11,8 @@ import DownArrow from '../assets/down-arrow.png';
 function Home() {
 
   useEffect(() => {
-    document.title = 'Repin Andrei - FullStack Developer';
-    metaAdder('description', "I'm Fullstack Developer with a passion of learning and creating. My main technology stack includes Python, Django, Express.js on Backend and JavaScript, React on Frontend.");
+    document.title = 'Repin Andrei - Web Developer';
+    metaAdder('description', "I'm Web Developer with a passion of learning and creating. My main tech stack includes JavaScript, React on Frontend and Node.js, Express.js, Python, Django on Backend.");
   });
 
   const myRef = useRef(null);
@@ -23,7 +23,7 @@ function Home() {
       <div className='about'>
         <h2 className='about__title'>Hi, my name is Repin Andrei</h2>
         <div className='promt'>
-          <p className='about__description-text'>I'm <span className='about__description-text_bold'>Fullstack Developer</span> with a passion of learning and creating.</p>
+          <p className='about__description-text'>I'm <span className='about__description-text_bold'>Web Developer</span> with a passion of learning and creating.</p>
 
           <p className='about__description-text'>
             15+ years of general programming experience.
@@ -31,7 +31,7 @@ function Home() {
             <span className='about__description-text_bold'> 1+ year of Python</span> backend development experience.
           </p>
 
-          <p className='about__description-text about__description-text_last-elaement'>My main technology stack includes Python, Django, Node, Express on Backend and JavaScript, React on Frontend.</p>
+          <p className='about__description-text about__description-text_last-elaement'>My main tech stack includes JavaScript, React on Frontend and Node, Express, Python, Django on Backend.</p>
           <a className='button' href={RepinCV_pdf_file} download="Repin_Andrei_CV.pdf" target='_blank' rel='noopener noreferrer'>Download CV</a>
           <div className='socialMedia'>
             <a href='https://www.linkedin.com/in/ra404/' target='_blank' rel='noopener noreferrer'>
@@ -55,15 +55,15 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-end</h2>
-            <span>JavaScript, ReactJS, Material-UI, HTML, CSS, BEM, npm, StyledComponent, Bootstrap, TailwindCSS, MUI</span>
+            <span>JavaScript, ReactJS, Material-UI, HTML, CSS, BEM, StyledComponent, MUI</span>
           </li>
           <li className='item'>
             <h2>Back-end</h2>
-            <span>Python, Django, DRF, NodeJS, npm, ExpressJS, REST</span>
+            <span>NodeJS, ExpressJS, Python, Django, DRF, npm, REST</span>
           </li>
           <li className='item'>
             <h2>Infrastructure and DB</h2>
-            <span>Docker, Git, GitHub Actions, CI/CD, nginx, WebPack, MongoDB, MySQL, MS SQL, Postgresql</span>
+            <span>Postgresql, MongoDB, Docker, Git, GitHub Actions, CI/CD, nginx, WebPack, MySQL, MS SQL</span>
           </li>
         </ol>
       </div>
