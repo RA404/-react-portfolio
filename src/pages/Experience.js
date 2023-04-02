@@ -23,11 +23,12 @@ function Experience() {
         >
           <h3 className='vertical-timeline-element-title'>Full Stack Web Developer</h3>
           <h4 className='vertical-timeline-element-subtitle'>OnPageConversion (Vaughan, Canada)</h4>
-          <p><b>Stack:</b> JavaScript, ReactJS, Python, Django, DRF, NodeJS, html/css</p>
+          <p><b>Stack:</b> JavaScript, TypeScript, React, Node.js, Express, html, css, MobX, Redux, Python, Django, DRF</p>
           <ul>
-            <li>Built the "Talk-ed" an MVP project for education technologies from scratch</li>
-            <li>Redesign of a web application for financial services, taking into account the modern technology stack, which increased the number of customer transactions by 15%</li>
-            <li>Successfully optimized the company's web application for greatest performance, which reduced the load on the server by 20%</li>
+            <li>Built the personal account app for Universal School of Negotiation from scratch</li>
+            <li>Developed telegram bots for sending reports for CEOs and receiving reports on request</li>
+            <li>Designed a dashboard for company owners to track key indicators in real time</li>
+            <li>Created and supported websites and landing pages</li>
           </ul>
         </VerticalTimelineElement>
 
@@ -37,7 +38,7 @@ function Experience() {
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Teach Lead</h3>
+          <h3 className='vertical-timeline-element-title'>Technical lead</h3>
           <h4 className='vertical-timeline-element-subtitle'>"Tekh-Met" ltd, Yekaterinburg</h4>
           <p>
             Duties: Managing IT department with 5 developers, web-sites development for different products, organising a cooperation with sub-contractors
@@ -46,7 +47,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
-          date='June 2009-May 2012'
+          date='June 2009 - July 2012'
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
@@ -59,25 +60,12 @@ function Experience() {
 
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
-          date='January 2009-May 2009'
+          date='August 2006 - December 2008'
           iconStyle={{ background: '#6B1049', color: '#fff' }}
           icon={<WorkIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Computer Programmer</h3>
-          <h4 className='vertical-timeline-element-subtitle'>"AS-Deprix" ltd, Yekaterinburg</h4>
-          <p>
-          Duties: New software development, updating of the existing software according to the customer's needs, technical tasks writing and completion.
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className='vertical-timeline-element--work'
-          date='August 2006-December 2008'
-          iconStyle={{ background: '#6B1049', color: '#fff' }}
-          icon={<WorkIcon />}
-        >
-          <h3 className='vertical-timeline-element-title'>Computer Programmer</h3>
-          <h4 className='vertical-timeline-element-subtitle'>"Ural Electronic Plant" ltd, Yekaterinburg</h4>
+          <h4 className='vertical-timeline-element-subtitle'>"Mirex, LaserCraft" ltd, Yekaterinburg</h4>
           <p>
           Duties: New software development, updating of the existing software according to the customer's needs, technical tasks writing and completion.
           </p>

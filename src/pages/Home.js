@@ -31,7 +31,7 @@ function Home() {
             <span className='about__description-text_bold'> 1+ year of Python</span> backend development experience.
           </p>
 
-          <p className='about__description-text about__description-text_last-elaement'>My main tech stack includes JavaScript, React on Frontend and Node, Express, Python, Django on Backend.</p>
+          <p className='about__description-text about__description-text_last-elaement'>My main tech stack includes JavaScript, TypeScript, React on Frontend and Node, Express, Python, Django on Backend.</p>
           <a className='button' href={RepinCV_pdf_file} download="Repin_Andrei_CV.pdf" target='_blank' rel='noopener noreferrer'>Download CV</a>
           <div className='socialMedia'>
             <a href='https://www.linkedin.com/in/ra404/' target='_blank' rel='noopener noreferrer'>
@@ -55,7 +55,7 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-end</h2>
-            <span>JavaScript, ReactJS, Material-UI, HTML, CSS, BEM, StyledComponent, MUI</span>
+            <span>JavaScript, TypeScript, React, HTML5, CSS3, MobX, Redux, Material-UI, TailwindCSS, Bootstrap, StyledComponent</span>
           </li>
           <li className='item'>
             <h2>Back-end</h2>
