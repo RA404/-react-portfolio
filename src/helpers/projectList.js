@@ -8,6 +8,7 @@ import Talked from '../assets/Talked.jpg';
 import PythonDjango from '../assets/python_django.jpeg';
 import BankCards from '../assets/bank_cards.jpeg';
 import Dashboard from '../assets/dashboard.png';
+import authMERN from '../assets/authMERN.png';
 
 
 export const ProjectList = [
@@ -20,11 +21,19 @@ export const ProjectList = [
         projectLink: 'https://ra404.github.io/dashboard/',
     },
     {
+        name: 'Auth JWT MERN',
+        image: authMERN,
+        skills: 'React, TypeScript, Express, MobX, JWT, axios, MongoDB',
+        gitLink: 'https://github.com/RA404/auth-mern',
+        description: 'MERN stack authentication with email confirmation. There is client and server part.',
+        projectLink: '',
+    },
+    {
         name: 'React-Portfolio',
         image: ReactPortfolio,
         skills: 'HTML, CSS, ReactJS',
         gitLink: 'https://github.com/RA404/react-portfolio',
-        description: '',
+        description: 'My portfolio web site',
         projectLink: 'https://repin-andrei.com/',
     },
     {
